@@ -1,0 +1,23 @@
+{
+	"index": {
+		"button": "Go to Sign Up"
+	},
+	"header": {
+		"login": "Login"
+	},
+	"sign-up": {
+		"code-step": {
+			"title": "check your phone",
+			"text": "We've sent a six-digit confirmation code to +3 823 999 38 12",
+			"input-label": "6-digit code",
+			"button": "Continue"
+		}
+	},
+	"tour": {
+		"title": "Ready to go!",
+		"text": "Let’s take a quick tour to your project",
+		"button": "Take the tour"
+	},
+	"main-page": "Main page",
+	"back-to-sign-up": "Back to Sign Up"
+}
