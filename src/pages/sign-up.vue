@@ -7,7 +7,12 @@
 					class="w-full max-w-[400px] mt-11 lg:mt-45 flex flex-col gap-11 lg:gap-10"
 				>
 					<div class="flex flex-col gap-3 lg:gap-2 items-center text-center">
-						<NuxtImg src="/assets/big-logo.png" class="w-[73px] lg:w-[90px]" />
+						<NuxtImg
+							src="/assets/big-logo.png"
+							class="w-[73px] lg:w-[90px]"
+							sizes="73px lg:90px"
+							preload
+						/>
 						<h3
 							class="text-[32px] lg:text-[40px] font-black font-['Montserrat'] rtl:font-['Open_Sans'] rtl:font-extrabold"
 						>
@@ -51,11 +56,15 @@
 				</div>
 			</div>
 			<div
-				class="relative w-full lg:w-1/2 bg-no-repeat lg:bg-cover h-[228px] lg:h-auto bg-size-[150%]"
-				:style="{
-					backgroundImage: 'url(/assets/bg-img.png)',
-				}"
-			/>
+				class="relative w-full lg:w-1/2 h-[228px] lg:h-screen overflow-hidden"
+			>
+				<NuxtImg
+					src="/assets/bg-img.png"
+					fit="cover"
+					class="w-full h-full object-cover object-top scale-125 lg:scale-100"
+					preload
+				/>
+			</div>
 		</div>
 	</div>
 </template>
