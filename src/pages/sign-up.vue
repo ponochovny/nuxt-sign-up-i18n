@@ -13,7 +13,9 @@
 						>
 							{{ $t('sign-up.code-step.title') }}
 						</h3>
-						<p class="px-3 lg:px-7 text-base lg:text-[18px] tracking-[0.35px]">
+						<p
+							class="px-3 lg:px-7 text-base lg:text-[18px] tracking-[0.35px] rtl:tracking-[0.95px]"
+						>
 							{{ $t('sign-up.code-step.text') }}
 						</p>
 					</div>
@@ -39,7 +41,7 @@
 							</div>
 						</div>
 						<Button
-							class="font-['Nunito_Sans']"
+							class="font-['Nunito_Sans'] rtl:tracking-[2.15px]"
 							:disabled="inputValue.length !== 11"
 							@click="$router.push(localePath('main'))"
 						>
