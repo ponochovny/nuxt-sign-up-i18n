@@ -3,7 +3,12 @@
 		class="fixed top-0 left-0 right-0 z-10 flex justify-between items-center px-[16px] py-3 lg:p-4 rtl:flex-row-reverse"
 	>
 		<div>
-			<img src="/assets/structure.png" alt="" class="lg:block hidden" />
+			<NuxtImg
+				src="/assets/logo_text.svg"
+				class="lg:block hidden"
+				width="143"
+				height="28"
+			/>
 			<img src="/assets/mobile-logo.png" alt="" class="lg:hidden block" />
 		</div>
 		<div class="flex lg:gap-2 items-center rtl:flex-row-reverse">

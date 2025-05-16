@@ -8,7 +8,7 @@
 				>
 					<div class="flex flex-col gap-3 lg:gap-2 items-center text-center">
 						<NuxtImg
-							src="/assets/big-logo.png"
+							src="/assets/logo.svg"
 							class="w-[73px] lg:w-[90px]"
 							sizes="73px lg:90px"
 							preload
