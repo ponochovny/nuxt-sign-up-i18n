@@ -3,20 +3,22 @@
 		<Header />
 		<div class="flex lg:min-h-screen flex-col-reverse lg:flex-row">
 			<div class="p-4 lg:p-0 w-full lg:w-1/2 flex justify-center">
-				<div class="w-full max-w-[400px] mt-14 lg:mt-44 flex flex-col gap-10">
-					<div class="flex flex-col gap-4 items-center text-center">
+				<div
+					class="w-full max-w-[400px] mt-11 lg:mt-45 flex flex-col gap-11 lg:gap-10"
+				>
+					<div class="flex flex-col gap-3 lg:gap-2 items-center text-center">
 						<NuxtImg src="/assets/big-logo.png" class="w-[73px] lg:w-[90px]" />
 						<h3
 							class="text-[32px] lg:text-[40px] font-black font-['Montserrat'] rtl:font-['Open_Sans'] rtl:font-extrabold"
 						>
 							{{ $t('sign-up.code-step.title') }}
 						</h3>
-						<p class="px-12 text-base">
+						<p class="px-3 lg:px-7 text-base lg:text-[18px] tracking-[0.35px]">
 							{{ $t('sign-up.code-step.text') }}
 						</p>
 					</div>
 					<div class="flex flex-col gap-4">
-						<div class="grid w-full items-center gap-2">
+						<div class="grid w-full items-center gap-[6px]">
 							<Label for="code">
 								{{ $t('sign-up.code-step.input-label') }}</Label
 							>
@@ -47,7 +49,7 @@
 				</div>
 			</div>
 			<div
-				class="relative w-full lg:w-1/2 bg-no-repeat lg:bg-cover h-56 lg:h-auto bg-size-[150%]"
+				class="relative w-full lg:w-1/2 bg-no-repeat lg:bg-cover h-[228px] lg:h-auto bg-size-[150%]"
 				:style="{
 					backgroundImage: 'url(/assets/bg-img.png)',
 				}"
@@ -77,8 +79,3 @@ function formatInput(event: Event) {
 	inputValue.value = formatted
 }
 </script>
-
-<style scoped>
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
-</style>

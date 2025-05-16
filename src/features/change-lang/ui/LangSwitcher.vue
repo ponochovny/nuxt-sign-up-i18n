@@ -3,7 +3,7 @@
 		<DropdownMenuTrigger
 			:as="Button"
 			variant="ghost"
-			class="flex items-center gap-1 text-[15px] font-bold lg:py-4 !lg:px-6 py-3 !px-4 rtl:flex-row-reverse lg:h-9 h-10"
+			class="flex items-center gap-2 text-[15px] font-bold lg:py-4 !lg:px-6 py-3 !px-4 rtl:flex-row-reverse lg:h-9 h-10"
 		>
 			<Globe :size="16" />
 			<span>

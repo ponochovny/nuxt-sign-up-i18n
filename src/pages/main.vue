@@ -5,14 +5,16 @@
 			<Button>{{ $t('back-to-sign-up') }}</Button>
 		</NuxtLink>
 		<Dialog default-open>
-			<DialogContent class="px-8 pb-9 gap-5" :is-close="false">
+			<DialogContent class="px-4 pb-9 gap-5" :is-close="false">
 				<DialogHeader class="mb-9 !text-center">
 					<NuxtImg
 						src="/assets/tour.png"
-						class="w-full max-w-[218px] mx-auto mb-6"
+						class="w-full max-w-[218px] mx-auto mb-2"
+						width="218"
+						height="182"
 					/>
 					<DialogTitle
-						class="text-3xl font-extrabold leading-8 mb-6 rtl:font-['Open_Sans']"
+						class="text-3xl font-extrabold leading-8 mb-[10px] rtl:font-['Open_Sans']"
 					>
 						{{ $t('tour.title') }}
 					</DialogTitle>
