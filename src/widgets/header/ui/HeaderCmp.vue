@@ -5,11 +5,18 @@
 		<div>
 			<NuxtImg
 				src="/assets/logo_text.svg"
+				alt="logo"
 				class="lg:block hidden"
 				width="143"
 				height="28"
 			/>
-			<img src="/assets/mobile-logo.png" alt="" class="lg:hidden block" />
+			<NuxtImg
+				src="/assets/logo.svg"
+				alt="logo"
+				class="lg:hidden block"
+				width="32"
+				height="28"
+			/>
 		</div>
 		<div class="flex lg:gap-2 items-center rtl:flex-row-reverse">
 			<LangSwitcher />
