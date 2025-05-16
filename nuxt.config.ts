@@ -11,7 +11,7 @@ export default defineNuxtConfig({
 		'@nuxt/image',
 	],
 	srcDir: '.',
-	components: ['src/shared'],
+	// components: ['src/shared'],
 	dir: {
 		assets: './src/app/assets',
 		pages: './src/pages',
@@ -28,6 +28,21 @@ export default defineNuxtConfig({
 		plugins: [tailwindcss()],
 	},
 	shadcn: {
-		componentDir: './shared/ui',
+		componentDir: './src/shared/ui',
+	},
+	fonts: {
+		families: [
+			{
+				name: 'Nunito Sans',
+				provider: 'google',
+				weights: [400, 600, 700, 800],
+			},
+			{ name: 'Montserrat', provider: 'google', weights: [900] },
+			{
+				name: 'Open Sans',
+				provider: 'google',
+				weights: [400, 500, 600, 800, 900],
+			},
+		],
 	},
 })
